@@ -15,3 +15,6 @@ This repository contains code that gives you the dimensions of objects in image.
 | Reference object | Eraser | Bottle cap |
 | Reference (w,h) in centimeters | (1.7,3,5) | (2.5,2.5) |
 | Predictions | <img src="https://github.com/AtharvaKalsekar/Computer-Vision/blob/master/SizeMeasurement/results/res_1.jpg"> | <img src="https://github.com/AtharvaKalsekar/Computer-Vision/blob/master/SizeMeasurement/results/res_2.jpg"> |
+
+#### Error
+predicted dimensions = actual dimensions +(-) 8% of actual dimension.
